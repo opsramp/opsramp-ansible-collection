@@ -1,9 +1,0 @@
-root@hydlpt322:~/Documents/GitHub/opsramp-ansible-collection/opsramp/monitoring# ansible-lint /home/subramanian/Documents/GitHub/opsramp-ansible-collection/opsramp/monitoring/playbooks/opsrampCreateClientPlaybook.yaml
-Couldn't parse task at /home/subramanian/Documents/GitHub/opsramp-ansible-collection/opsramp/monitoring/playbooks/opsrampCreateClientPlaybook.yaml:7 (conflicting action statements: opsramp.monitoring.create_opsramp_client, __line__)
-{ 'opsramp.monitoring.create_opsramp_client': { '__file__': '/home/subramanian/Documents/GitHub/opsramp-ansible-collection/opsramp/monitoring/playbooks/opsrampCreateClientPlaybook.yaml',
-                                                '__line__': 7,
-                                                'api_endpoint': 'https://content-development.api.opsramp.net/api/v2/tenants/msp_795257/clients',
-                                                'auth_header': 'bearer 46613510-19d2-43fa-8002-57a87d83f04a',
-                                                'json_path': '/home/subramanian/namasivaya/doc/opsramp/ansible/createClient.json'},
-  'register': 'testout'}
-root@hydlpt322:~/Documents/GitHub/opsramp-ansible-collection/opsramp/monitoring# 

@@ -1,8 +1,0 @@
-{
-    "ANSIBLE_MODULE_ARGS": {
-        "api_endpoint": "https://content-development.api.opsramp.net/api/v2/tenants/msp_795257/clients",
-	"json_path": "/home/subramanian/namasivaya/doc/opsramp/ansible/createClient.json",
-        "auth_header" :"bearer e0b01fc1-0a8c-473c-8ee5-03ec9b675ab5"
-        
-    }
-}
